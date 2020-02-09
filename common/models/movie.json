@@ -1,0 +1,54 @@
+{
+  "name": "Movie",
+  "plural": "Movies",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": true,
+  "properties": {
+    "MovieID": {
+      "type": "string",
+      "id": true,
+      "generated": true
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PublishStartDate": {
+      "type": "number"
+    },
+    "PublishStartTime": {
+      "type": "string"
+    },
+    "Catagory": {
+      "type": "string"
+    },
+    "contain": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "containers": {
+      "type": "hasOne",
+      "model": "container",
+      "foreignKey": "container",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

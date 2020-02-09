@@ -1,0 +1,41 @@
+{
+  "name": "container",
+  "plural": "container",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "MovieID": {
+      "type": "string",
+      "id": true,
+      "generated": true
+    },
+    "Status": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PublishStartDate": {
+      "type": "number"
+    },
+    "PublishStartTime": {
+      "type": "string"
+    },
+    "Catagory": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
