@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "MovieSource": {
+  "ItemSource": {
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "database": "MovieSource",
+    "database": "ItemSource",
     "password": "",
-    "name": "MovieSource",
+    "name": "ItemSource",
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
@@ -19,13 +19,5 @@
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./Storage"
-  },
-  "MongoStorage": {
-    "name": "MongoStorage",
-    "connector":"loopback-component-storage-mongo",
-    "host": "localhost",
-    "port": "27017",
-    "database": "MovieSource",
-    "provider": "filestore-mongo"
-     }
+  }
 }

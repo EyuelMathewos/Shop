@@ -35,12 +35,12 @@
     "dataSource": "db",
     "public": false
   },
-  "Movie": {
-    "dataSource": "MovieSource",
+  "item": {
+    "dataSource": "ItemSource",
     "public": true
   },
   "container": {
-    "dataSource": "MongoStorage",
+    "dataSource": "Storage",
     "public": true
   }
 }

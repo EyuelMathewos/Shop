@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "MovieID": {
+    "itemID": {
       "type": "string",
       "id": true,
       "generated": true

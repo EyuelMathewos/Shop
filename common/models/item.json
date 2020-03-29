@@ -1,6 +1,6 @@
 {
-  "name": "Movie",
-  "plural": "Movies",
+  "name": "item",
+  "plural": "items",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,7 +8,7 @@
   },
   "forceId": true,
   "properties": {
-    "MovieID": {
+    "itemID": {
       "type": "string",
       "id": true,
       "generated": true
@@ -26,29 +26,17 @@
       "type": "string"
     },
     "PublishStartDate": {
-      "type": "number"
+      "type": "string"
     },
     "PublishStartTime": {
       "type": "string"
     },
     "Catagory": {
       "type": "string"
-    },
-    "contain": {
-      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "containers": {
-      "type": "hasOne",
-      "model": "container",
-      "foreignKey": "container",
-      "options": {
-        "nestRemoting": true
-      }
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
