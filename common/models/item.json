@@ -13,13 +13,10 @@
       "id": true,
       "generated": true
     },
-    "Status": {
+    "item": {
       "type": "string"
     },
-    "Type": {
-      "type": "string"
-    },
-    "Title": {
+    "price": {
       "type": "string"
     },
     "Description": {
