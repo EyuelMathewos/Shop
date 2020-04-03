@@ -13,22 +13,22 @@
       "id": true,
       "generated": true
     },
-    "item": {
+    "itemName": {
       "type": "string"
     },
-    "price": {
+    "description": {
       "type": "string"
     },
-    "Description": {
+    "color": {
       "type": "string"
     },
-    "PublishStartDate": {
+    "expiredDate": {
       "type": "string"
     },
-    "PublishStartTime": {
+    "createdBy": {
       "type": "string"
     },
-    "Catagory": {
+    "itemCatagory": {
       "type": "string"
     }
   },
